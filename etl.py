@@ -15,4 +15,4 @@ for file in files:
 
 _, list_header = transform(extract(files[0]))
 dataFrame = pd.DataFrame(data = data, columns = list_header)
-dataFrame.to_csv(out_file) #TODO: decide on flat file format - feather? pickle?
+dataFrame.to_csv(out_file)

@@ -1,0 +1,289 @@
+﻿Tab,Section,Field Name,XPath,Element (Event=77709)
+Site,Site Information,Site,"//*[@id=""txtSite""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$txtSite"" type=""text"" value=""[S-48]- Casey Canal"" id=""txtSite"" disabled=""disabled"" class=""aspNetDisabled"" style=""width:350px;"">"
+Site,Site Information,Group,"//*[@id=""lblGroupName""]","<span id=""lblGroupName"">Group: [ G-2756]- Bent Tree StreamKeepers</span>"
+Site,Site Information,County,"//*[@id=""lblCountyName""]","<span id=""lblCountyName"">County: Pickens</span>"
+Site,Site Information,EventDate,"//*[@id=""txtDate""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$txtDate"" type=""text"" value=""11/7/2019"" id=""txtDate"" disabled=""disabled"" class=""aspNetDisabled hasDatepicker"" style=""width: 6em; font-weight: normal; background: lightyellow;"" readonly="""">"
+Site,Site Information,TimeCollected-Hour,"//*[@id=""ctl00$ContentPlaceHolder2$Tabs$tabSite$TimeSelector1_txtHour""]","<input id=""ctl00$ContentPlaceHolder2$Tabs$tabSite$TimeSelector1_txtHour"" name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$TimeSelector1"" readonly=""readonly"" onclick=""this.blur();"" cols=""2"" maxlength=""2"" value=""09"" style=""height:15px;border-bottom:solid 1px Silver;border-left:solid 1px Silver;border-top:solid 1px Silver;background-color:;border-right:none;width:17px;font-size:9pt;"">"
+Site,Site Information,TimeCollected-Minute,"//*[@id=""ctl00$ContentPlaceHolder2$Tabs$tabSite$TimeSelector1_txtMinute""]","<input id=""ctl00$ContentPlaceHolder2$Tabs$tabSite$TimeSelector1_txtMinute"" name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$TimeSelector1_txtMinute"" readonly=""readonly"" onclick=""this.blur();"" cols=""2"" maxlength=""2"" value=""00"" style=""height:15px;border-bottom:solid 1px Silver;border-left:none;border-top:solid 1px Silver;background-color:;border-right:none;width:17px;font-size:9pt;"">"
+Site,Site Information,TimeCollected-AMPM,"//*[@id=""ctl00$ContentPlaceHolder2$Tabs$tabSite$TimeSelector1_txtAmPm""]","<input id=""ctl00$ContentPlaceHolder2$Tabs$tabSite$TimeSelector1_txtAmPm"" name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$TimeSelector1_txtAmPm"" readonly=""readonly"" onclick=""this.blur();"" cols=""2"" maxlength=""2"" value=""AM"" style=""height:15px;border-bottom:solid 1px Silver;border-left:none;border-right:solid 1px Silver;border-top:solid 1px Silver;background-color:;width:22px;font-size:9pt;"">"
+Site,Site Information,number_participants,"//*[@id=""iParticipants""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$iParticipants"" type=""text"" id=""iParticipants"" maxlength=""3"" style=""width: 3em; font-weight: normal; background: lightyellow;"" value=""2"" disabled=""disabled"">"
+Site,Site Information,Time spent sampling - minutes,"//*[@id=""Sampling""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$Sampling"" type=""text"" id=""Sampling"" class=""cMisc"" maxlength=""10"" style=""width: 3em; font-weight: normal; background: lightyellow;"" onchange=""DVolunteerHours1();"" onkeypress=""DVolunteerHours1();"" value=""60"" disabled=""disabled"">"
+Site,Site Information,Total time spent traveling:,"//*[@id=""Traveling""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$Traveling"" type=""text"" id=""Traveling"" class=""cMisc"" maxlength=""10"" style=""width: 3em; font-weight: normal; background: lightyellow;"" onchange=""DVolunteerHours1();"" onkeypress=""DVolunteerHours1();"" disabled=""disabled"">"
+Site,Site Information,Furthest distance traveled:,"//*[@id=""iDistance""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$iDistance"" type=""text"" id=""iDistance"" maxlength=""10"" style=""width: 3em; font-weight: normal; background: lightyellow;"" onchange=""DVolunteerHours1();"" onkeypress=""DVolunteerHours1();"" disabled=""disabled"">"
+Site,Participants,Adopt-A-Stream monitors,"//*[@id=""ctl00_ContentPlaceHolder2_Tabs_tabSite_rgContacts_ctl00""]/tbody","<tbody>
+					<tr class=""rgRow"" id=""ctl00_ContentPlaceHolder2_Tabs_tabSite_rgContacts_ctl00__0"">
+						<td>
+                                                                        <span id=""ctl00_ContentPlaceHolder2_Tabs_tabSite_rgContacts_ctl00_ctl04_numberLabel""></span>
+                                                                    </td><td>Dara Sinclair (40006)</td><td><input type=""image"" name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$rgContacts$ctl00$ctl04$gbcRemove"" id=""ctl00_ContentPlaceHolder2_Tabs_tabSite_rgContacts_ctl00_ctl04_gbcRemove"" src=""Content/images/DeleteRed.png"" style=""border-width:0px;""></td>
+					</tr><tr class=""rgAltRow"" id=""ctl00_ContentPlaceHolder2_Tabs_tabSite_rgContacts_ctl00__1"">
+						<td>
+                                                                        <span id=""ctl00_ContentPlaceHolder2_Tabs_tabSite_rgContacts_ctl00_ctl06_numberLabel""></span>
+                                                                    </td><td>Dara Sinclair (40006)</td><td><input type=""image"" name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$rgContacts$ctl00$ctl06$gbcRemove"" id=""ctl00_ContentPlaceHolder2_Tabs_tabSite_rgContacts_ctl00_ctl06_gbcRemove"" src=""Content/images/DeleteRed.png"" style=""border-width:0px;""></td>
+					</tr>
+					</tbody>"
+Site,Participants,Other participants,"//*[@id=""UContacts""]","<textarea name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$UContacts"" id=""UContacts"" rows=""2"" style=""height: 3em; width: 95%; font-weight: normal; background: lightyellow;"">Kelly Sinclair</textarea>"
+Site,Weather,Heavy Rain,"//*[@id=""RW1""]","<input value=""Heavy"" name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$cWeather"" type=""radio"" id=""RW1"" class=""cWeather"" style="" font-weight: normal;"" disabled=""disabled"">"
+Site,Weather,Steady Rain,"//*[@id=""RW2""]","<input value=""Heavy"" name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$cWeather"" type=""radio"" id=""RW1"" class=""cWeather"" style="" font-weight: normal;"" disabled=""disabled"">"
+Site,Weather,Intermittent Rain,"//*[@id=""RW3""]","<input value=""Intermittent"" name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$cWeather"" type=""radio"" id=""RW3"" class=""cWeather"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Weather,Overcast,"//*[@id=""RW4""]","<input value=""Overcast"" name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$cWeather"" type=""radio"" id=""RW4"" class=""cWeather"" style=""display: inline; font-weight: normal;"" checked=""checked"" disabled=""disabled"">"
+Site,Weather,Partly Cloudy,"//*[@id=""RW5""]","<input value=""Cloudy"" name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$cWeather"" type=""radio"" id=""RW5"" class=""cWeather"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Weather,Clear/Sunny,"//*[@id=""RW6""]","<input value=""Clear"" name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$cWeather"" type=""radio"" id=""RW6"" class=""cWeather"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Weather,Amount in inches,"//*[@id=""iRainInches""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$iRainInches"" type=""text"" id=""iRainInches"" maxlength=""5"" style=""width: 3em; font-weight: normal; background: lightyellow;"" disabled=""disabled"">"
+Site,Weather,In Last,"//*[@id=""RainTime""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$RainTime"" type=""text"" id=""RainTime"" maxlength=""5"" style=""width: 3em; font-weight: normal; background: lightyellow;"" disabled=""disabled"">"
+Site,Weather,Hours,"//*[@id=""RT1""]","<input value=""RT1"" name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$time"" type=""radio"" id=""RT1"" checked=""checked"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Weather,Days,"//*[@id=""RT2""]","<input value=""RT2"" name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$time"" type=""radio"" id=""RT2"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Flow/Water Level: Dry,"//*[@id=""flow1""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$flow1"" type=""checkbox"" id=""flow1"" class=""cObservations"" value=""dry"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Flow/Water Level: Stagnant/Still,"//*[@id=""flow2""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$flow2"" type=""checkbox"" id=""flow2"" class=""cObservations"" value=""stagnant"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Flow/Water Level: Low,"//*[@id=""flow3""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$flow3"" type=""checkbox"" id=""flow3"" class=""cObservations"" value=""low"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Flow/Water Level: Normal,"//*[@id=""flow4""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$flow4"" type=""checkbox"" id=""flow4"" class=""cObservations"" value=""normal"" style=""display: inline; font-weight: normal;"" checked=""checked"" disabled=""disabled"">"
+Site,Observations,Flow/Water Level: High,"//*[@id=""flow5""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$flow5"" type=""checkbox"" id=""flow5"" class=""cObservations"" value=""high"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Flow/Water Level: Flood (over banks),"//*[@id=""flow6""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$flow6"" type=""checkbox"" id=""flow6"" class=""cObservations"" value=""flood"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Tides: High,"//*[@id=""tide2""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$tide2"" type=""checkbox"" id=""tide2"" class=""cObservations"" value=""hightide"" onclick=""$('tide1').checked = $('tide4').checked = false"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Tides: Low,"//*[@id=""tide4""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$tide4"" type=""checkbox"" id=""tide4"" class=""cObservations"" value=""lowtide"" onclick=""$('tide1').checked = $('tide2').checked = false"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Tides: Incoming,"//*[@id=""tide5""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$tide5"" type=""checkbox"" id=""tide5"" class=""cObservations"" value=""incoming"" onclick=""$('tide1').checked = $('tide3').checked = false"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Tides: Outgoing,"//*[@id=""tide3""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$tide3"" type=""checkbox"" id=""tide3"" class=""cObservations"" value=""outgoing"" onclick=""$('tide1').checked = $('tide5').checked = false"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Waterway was not influenced by tides,"//*[@id=""tide1""]","<input value=""notide"" name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$tide"" type=""radio"" id=""tide1"" class=""cObservations"" onclick=""$('tide2').checked = $('tide3').checked = $('tide4').checked = $('tide5').checked = false"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Water Conditions: Calm/Smooth,"//*[@id=""zcond1""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$zcond1"" type=""checkbox"" id=""zcond1"" class=""cObservations"" value=""calm"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Water Conditions: Ripples,"//*[@id=""zcond2""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$zcond2"" type=""checkbox"" id=""zcond2"" class=""cObservations"" value=""ripples"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Water Conditions: Waves,"//*[@id=""zcond3""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$zcond3"" type=""checkbox"" id=""zcond3"" class=""cObservations"" value=""waves"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Water Conditions: White Caps,"//*[@id=""zcond4""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$zcond4"" type=""checkbox"" id=""zcond4"" class=""cObservations"" value=""white caps"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Water Clarity: Clear/Transparent,"//*[@id=""clarity1""]","<input value=""clarityclear"" name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$clarity"" type=""radio"" id=""clarity1"" class=""cObservations"" onclick=""clearText('Clarity')"" style=""display: inline; font-weight: normal;"" checked=""checked"" disabled=""disabled"">"
+Site,Observations,Water Clarity: Cloudy/Somewhat Turbid,"//*[@id=""clarity2""]","<input value=""cloudy"" name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$clarity"" type=""radio"" id=""clarity2"" class=""cObservations"" onclick=""clearText('Clarity')"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Water Clarity: Opaque/Turbid,"//*[@id=""clarity3""]","<input value=""opaque"" name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$clarity"" type=""radio"" id=""clarity3"" class=""cObservations"" onclick=""clearText('Clarity')"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Water Clarity: Other,"//*[@id=""clarity4""]","<input value=""otherclarity"" name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$clarity"" type=""radio"" id=""clarity4"" class=""cObservations"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Water Clarity: Other - Description,"//*[@id=""txtClarity""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$txtClarity"" type=""text"" id=""txtClarity"" style=""width: 6em; font-weight: normal; background: lightyellow;"" maxwidth=""20"" class=""cObservations"" onkeydown=""Checkradio('clarity4')"" disabled=""disabled"">"
+Site,Observations,Water Color: No Color,"//*[@id=""color1""]","<input value=""nocolor"" name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$color"" type=""radio"" id=""color1"" class=""cObservations"" onclick=""clearText('Color')"" style=""display: inline; font-weight: normal;"" checked=""checked"" disabled=""disabled"">"
+Site,Observations,Water Color: Brown/Muddy,"//*[@id=""color2""]","<input value=""brown"" name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$color"" type=""radio"" id=""color2"" class=""cObservations"" onclick=""clearText('Color')"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Water Color: Green,"//*[@id=""color3""]","<input value=""green"" name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$color"" type=""radio"" id=""color3"" class=""cObservations"" onclick=""clearText('Color')"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Water Color: Milky/White,"//*[@id=""color4""]","<input value=""milky"" name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$color"" type=""radio"" id=""color4"" class=""cObservations"" onclick=""clearText('Color')"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Water Color:  Tannic,"//*[@id=""color5""]","<input value=""tannic"" name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$color"" type=""radio"" id=""color5"" class=""cObservations"" onclick=""clearText('Color')"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Water Color: Other,"//*[@id=""color6""]","<input value=""othercolor"" name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$color"" type=""radio"" id=""color6"" class=""cObservations"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Water Color: Other - Description,"//*[@id=""txtColor""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$txtColor"" type=""text"" id=""txtColor"" style=""width: 6em; font-weight: normal; background: lightyellow;"" maxwidth=""20"" class=""cObservations"" onkeydown=""Checkradio('color6')"" disabled=""disabled"">"
+Site,Observations,Water Surface: Clear,"//*[@id=""surfaceclear""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$surfaceclear"" type=""checkbox"" id=""surfaceclear"" value=""clearsurface"" class=""cObservations"" style=""display: inline; font-weight: normal;"" checked=""checked"" disabled=""disabled"">"
+Site,Observations,Water Surface:  Oily Sheen,"//*[@id=""surfaceoily""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$surfaceoily"" type=""checkbox"" id=""surfaceoily"" value=""oily"" class=""cObservations"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations, Water Surface: Oily sheen breaks when disturbed - Yes,"//*[@id=""RB1""]","<input value=""breaksYes"" name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$RB"" type=""radio"" id=""RB1"" class=""cObservations"" onclick=""$('surfaceoily').checked = true"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations, Water Surface: Oily sheen breaks when disturbed - No,"//*[@id=""RB2""]","<input value=""breaksNo"" name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$RB"" type=""radio"" id=""RB2"" onclick=""$('surfaceoily').checked = true"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Water Surface: Algae,"//*[@id=""surfacealgae""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$surfacealgae"" type=""checkbox"" id=""surfacealgae"" value=""algae"" class=""cObservations"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Water Surface: foam,"//*[@id=""surfacefoam""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$surfacefoam"" type=""checkbox"" id=""surfacefoam"" value=""foam"" class=""cObservations"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,"Water Surface:  foam - greater than 3"" high","//*[@id=""WF1""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$WF1"" type=""checkbox"" id=""WF1"" class=""cObservations"" value="">3"" onclick=""$('surfacefoam').checked = true"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Water Surface: foam - It is pure white,"//*[@id=""WF2""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$WF2"" type=""checkbox"" id=""WF2"" class=""cObservations"" value=""whitefoam"" onclick=""$('surfacefoam').checked = true"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Water Surface: Other,"//*[@id=""surfaceother""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$surfaceother"" type=""checkbox"" id=""surfaceother"" class=""cObservations"" value=""othersurface"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Water Surface: Other - Description,"//*[@id=""Foam""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$Foam"" type=""text"" id=""Foam"" class=""cObservations"" style=""width: 6em; font-weight: normal; background: lightyellow;"" maxwidth=""20"" onkeydown=""Checkradio('surfaceother')"" disabled=""disabled"">"
+Site,Observations,Water Odor: Natural/None,"//*[@id=""odor1""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$odor1"" type=""checkbox"" id=""odor1"" class=""cObservations"" value=""natural"" style=""display: inline; font-weight: normal;"" checked=""checked"" disabled=""disabled"">"
+Site,Observations,Water Odor: Gasoline,"//*[@id=""odor2""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$odor2"" type=""checkbox"" id=""odor2"" class=""cObservations"" value=""gasoline"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Water Odor: Sewage,"//*[@id=""odor3""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$odor3"" type=""checkbox"" id=""odor3"" class=""cObservations"" value=""sewage"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Water Odor: Rotten Egg,"//*[@id=""odor4""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$odor4"" type=""checkbox"" id=""odor4"" class=""cObservations"" value=""egg"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Water Odor: Fishy,"//*[@id=""odor5""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$odor5"" type=""checkbox"" id=""odor5"" class=""cObservations"" value=""fishy"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Water Odor: Chlorine,"//*[@id=""odor6""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$odor6"" type=""checkbox"" id=""odor6"" class=""cObservations"" value=""chlorine"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Water Odor: Other,"//*[@id=""odor7""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$odor7"" type=""checkbox"" id=""odor7"" class=""cObservations"" value=""otherodor"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Water Odor: Other - description,"//*[@id=""Odor""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$Odor"" type=""text"" id=""Odor"" class=""cObservations"" style=""width: 15em; font-weight: normal; background: lightyellow;"" maxwidth=""20"" onkeydown=""Checkradio('odor7')"" disabled=""disabled"">"
+Site,Observations,Trash: None,"//*[@id=""trash1""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$trash1"" type=""checkbox"" id=""trash1"" class=""cObservations"" value=""notrash"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,"Trash: Yes, I did a cleanup","//*[@id=""trash2""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$trash2"" type=""checkbox"" id=""trash2"" class=""cObservations"" value=""didcleanup"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Observations,Trash: This site needs an organized cleanup,"//*[@id=""trash3""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$trash3"" type=""checkbox"" id=""trash3"" class=""cObservations"" value=""needscleanup"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Site,Comments,Comments,"//*[@id=""Site""]","<textarea name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$Site"" id=""Site"" class=""cComments"" style=""width: 90%; height: 10em; font-weight: normal; background: lightyellow;""></textarea>"
+Chemical,Did you calibrate your meter and/or probe?,Yes,"//*[@id=""Calibrated1""]","<input value=""CalibratedYes"" name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$calibrated"" type=""radio"" id=""Calibrated1"" class=""cMisc"" style=""display: inline; font-weight: normal;"" checked=""checked"" disabled=""disabled"">"
+Chemical,Did you calibrate your meter and/or probe?,No,"//*[@id=""Calibrated2""]","<input value=""CalibratedNo"" name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$calibrated"" type=""radio"" id=""Calibrated2"" class=""cMisc"" style=""display: inline; font-weight: normal;"" onclick=""clearText('uncalibratedReason')"" disabled=""disabled"">"
+Chemical,Did you calibrate your meter and/or probe?,please explain,"//*[@id=""uncalibratedReason""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$uncalibratedReason"" type=""text"" id=""uncalibratedReason"" class=""cMisc"" style=""font-weight: normal; background: lightyellow;"" onkeydown=""Checkradio('Calibrated2')"" disabled=""disabled"">"
+Chemical,Reagents,expired reagents: Alkaline Potassium Iodide Azide,"//*[@id=""Expired1""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$Expired1"" type=""checkbox"" id=""Expired1"" class=""cMisc"" value=""alkaline"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Chemical,Reagents,expired reagents: Manganous Sulfate Solution,"//*[@id=""Expired2""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$Expired2"" type=""checkbox"" id=""Expired2"" class=""cMisc"" value=""manganous"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Chemical,Reagents,expired reagents: pH Wide Range Indicator,"//*[@id=""Expired3""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$Expired3"" type=""checkbox"" id=""Expired3"" class=""cMisc"" value=""pH"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Chemical,Reagents,expired reagents: Sodium Thiosulfate,"//*[@id=""Expired4""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$Expired4"" type=""checkbox"" id=""Expired4"" class=""cMisc"" value=""sodium"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Chemical,Reagents,expired reagents: Starch Indicator,"//*[@id=""Expired5""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$Expired5"" type=""checkbox"" id=""Expired5"" class=""cMisc"" value=""starch"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Chemical,Reagents,expired reagents: Sulfuric Acid 1:1,"//*[@id=""Expired6""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$Expired6"" type=""checkbox"" id=""Expired6"" class=""cMisc"" value=""sulfuric"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Chemical,Reagents,expired reagents: Other,"//*[@id=""Expired""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$Expired"" type=""text"" id=""Expired"" style=""width: 30em; font-weight: normal; background: lightyellow;"" class=""cMisc"" disabled=""disabled"">"
+Chemical,Tests,Air Temp,"//*[@id=""iAirTemp""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$iAirTemp"" type=""text"" id=""iAirTemp"" style=""width: 3em; font-weight: normal; background: lightyellow;"" value=""14.1"" disabled=""disabled"">"
+Chemical,Tests,Water Temp,"//*[@id=""iWaterTemp""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$iWaterTemp"" type=""text"" id=""iWaterTemp"" style=""width: 3em; font-weight: normal; background: lightyellow;"" value=""12.5"" disabled=""disabled"">"
+Chemical,Tests,pH - t1,"//*[@id=""pH1""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$pH1"" type=""text"" id=""pH1"" class=""cMisc"" style=""width: 3em; font-weight: normal; background: lightyellow;"" value=""7"" disabled=""disabled"">"
+Chemical,Tests,pH - t2,"//*[@id=""pH2""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$pH2"" type=""text"" id=""pH2"" class=""cMisc"" style=""width: 3em; font-weight: normal; background: lightyellow;"" value=""7"" disabled=""disabled"">"
+Chemical,Tests,pH - Average,"//*[@id=""ipH""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$ipH"" type=""text"" id=""ipH"" disabled=""disabled"" style=""width: 80%; text-align: center; color: darkgreen; border: none; font-weight: normal; background: lightyellow;"">"
+Chemical,Tests,Dissolved Oxygen - t1,"//*[@id=""DissolvedOxygen1""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$DissolvedOxygen1"" type=""text"" id=""DissolvedOxygen1"" class=""cMisc"" style=""width: 3em; font-weight: normal; background: lightyellow;"" value=""9.2"" disabled=""disabled"">"
+Chemical,Tests,Dissolved Oxygen - t2,"//*[@id=""DissolvedOxygen2""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$DissolvedOxygen2"" type=""text"" id=""DissolvedOxygen2"" class=""cMisc"" style=""width: 3em; font-weight: normal; background: lightyellow;"" value=""9.2"" disabled=""disabled"">"
+Chemical,Tests,Dissolved Oxygen - Average,"//*[@id=""iDissolvedOxygen""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$iDissolvedOxygen"" type=""text"" id=""iDissolvedOxygen"" disabled=""disabled"" style=""width: 80%; text-align: center; color: darkgreen; border: none; font-weight: normal; background: lightyellow;"">"
+Chemical,Tests,Conductivity,"//*[@id=""iConductivity""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$iConductivity"" type=""text"" id=""iConductivity"" style=""width: 3em; font-weight: normal; background: lightyellow;"" value=""50"" disabled=""disabled"">"
+Chemical,Tests,Salinity - t1,"//*[@id=""Salinity1""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$Salinity1"" type=""text"" id=""Salinity1"" class=""cMisc"" style=""width: 3em; font-weight: normal; background: lightyellow;"" maxlength=""3"" disabled=""disabled"">"
+Chemical,Tests,Salinity - t2,"//*[@id=""Salinity2""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$Salinity2"" type=""text"" id=""Salinity2"" class=""cMisc"" style=""width: 3em; font-weight: normal; background: lightyellow;"" maxlength=""3"" disabled=""disabled"">"
+Chemical,Tests,Salinity - Average,"//*[@id=""iSalinity""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$iSalinity"" type=""text"" id=""iSalinity"" disabled=""disabled"" style=""width: 80%; text-align: center; color: darkgreen; border: none; font-weight: normal; background: lightyellow;"">"
+Chemical,Tests,Secchi Disk - t1,"//*[@id=""SecchiDisk1""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$SecchiDisk1"" type=""text"" id=""SecchiDisk1"" class=""cMisc"" style=""width: 3em; font-weight: normal; background: lightyellow;"" disabled=""disabled"">"
+Chemical,Tests,Secchi Disk - t2,"//*[@id=""SecchiDisk2""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$SecchiDisk2"" type=""text"" id=""SecchiDisk2"" class=""cMisc"" style=""width: 3em; font-weight: normal; background: lightyellow;"" disabled=""disabled"">"
+Chemical,Tests,Secchi Disk - Average,"//*[@id=""iSecchiDisk""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$iSecchiDisk"" type=""text"" id=""iSecchiDisk"" disabled=""disabled"" style=""width: 80%; text-align: center; color: darkgreen; border: none; font-weight: normal; background: lightyellow;"">"
+Chemical,Tests,Chlorophyll a,"//*[@id=""iChlorophyllA""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$iChlorophyllA"" type=""text"" id=""iChlorophyllA"" style=""width: 3em; font-weight: normal; background: lightyellow;"" disabled=""disabled"">"
+Chemical,Tests,Alkalinity,"//*[@id=""iAlkalinity""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$iAlkalinity"" type=""text"" id=""iAlkalinity"" style=""width: 100%; font-weight: normal; background: lightyellow;"" disabled=""disabled"">"
+Chemical,Tests,Ammonia-N,"//*[@id=""iAmmonia""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$iAmmonia"" type=""text"" id=""iAmmonia"" style=""width: 100%; font-weight: normal; background: lightyellow;"" disabled=""disabled"">"
+Chemical,Tests,Nitrate-N,"//*[@id=""iNitrateNitrogen""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$iNitrateNitrogen"" type=""text"" id=""iNitrateNitrogen"" style=""width: 100%; font-weight: normal; background: lightyellow;"" disabled=""disabled"">"
+Chemical,Tests,Orthophosphate,"//*[@id=""iOrthophosphate""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$iOrthophosphate"" type=""text"" id=""iOrthophosphate"" style=""width: 100%; font-weight: normal; background: lightyellow;"" disabled=""disabled"">"
+Chemical,Tests,Sampling Depth,"//*[@id=""iDepth""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$iDepth"" type=""text"" id=""iDepth"" style=""width: 100%; font-weight: normal; background: lightyellow;"" disabled=""disabled"">"
+Chemical,Tests,Settleable Solids,"//*[@id=""iSettleableSolids""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$iSettleableSolids"" type=""text"" id=""iSettleableSolids"" style=""width: 100%; font-weight: normal; background: lightyellow;"" onchange=""showNextChange(this)"" disabled=""disabled"">"
+Chemical,Tests,Turbidity,"//*[@id=""iTurbidity""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$iTurbidity"" type=""text"" id=""iTurbidity"" style=""width: 100%; font-weight: normal; background: lightyellow;"" disabled=""disabled"">"
+Chemical,Tests,additional tests - test,"//*[@id=""AddA""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$AddA"" type=""text"" id=""AddA"" onchange=""showNextRow(this)"" class=""cMisc"" style=""font-weight: normal; background: lightyellow;"" disabled=""disabled"">"
+Chemical,Tests,additional tests - result,"//*[@id=""IAddA1""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$IAddA1"" type=""text"" id=""IAddA1"" class=""cMisc"" colspan=""2"" style=""font-weight: normal; background: lightyellow;"" disabled=""disabled"">"
+Chemical,Tests,additional tests - units,"//*[@id=""IAddA3""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$IAddA3"" type=""text"" id=""IAddA3"" class=""cMisc"" style=""font-weight: normal; background: lightyellow;"" disabled=""disabled"">"
+Chemical,Tests,Comments,"//*[@id=""Chemical""]","<textarea name=""ctl00$ContentPlaceHolder2$Tabs$tblChemical$Chemical"" id=""Chemical"" class=""cComments"" style=""width: 90%; height: 10em; font-weight: normal; background: lightyellow;""></textarea>"
+Bacterial,3M Petrifilm Method: Escherichia coli,plate - blank,"//*[@id=""blank""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$blank"" type=""number"" id=""blank"" style=""width: 2em; font-weight: normal; background: lightyellow;"" class=""cMisc"" min=""0"" disabled=""disabled"">"
+Bacterial,,plate - 1,"//*[@id=""plate1""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$plate1"" type=""text"" id=""plate1"" style=""width: 3em; font-weight: normal; background: lightyellow;"" class=""cMisc"" onchange=""showNextChange1(this)"" disabled=""disabled"">"
+Bacterial,,plate - 2,"//*[@id=""plate2""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$plate2"" type=""text"" id=""plate2"" style=""width: 3em; font-weight: normal; background: lightyellow;"" class=""cMisc"" onchange=""showNextChange2(this)"" disabled=""disabled"">"
+Bacterial,,plate - 3,"//*[@id=""plate3""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$plate3"" type=""text"" id=""plate3"" style=""width: 3em; font-weight: normal; background: lightyellow;"" class=""cMisc"" onchange=""showNextChange3(this)"" disabled=""disabled"">"
+Bacterial,,plate - 4,"//*[@id=""plate4""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$plate4"" type=""text"" id=""plate4"" style=""width: 3em; font-weight: normal; background: lightyellow;"" class=""cMisc"" onchange=""showNextChange4(this)"" disabled=""disabled"">"
+Bacterial,,plate - 5,"//*[@id=""plate5""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$plate5"" type=""text"" id=""plate5"" style=""width: 3em; font-weight: normal; background: lightyellow;"" class=""cMisc"" onchange=""showNextChange5(this)"" disabled=""disabled"">"
+Bacterial,,AVG of number of colonies,"//*[@id=""3MFormula""]","<th class=""newTD"" colspan=""4"" style=""background: #fff; border-right: 1px solid black"" id=""3MFormula""></th>"
+Bacterial,Sample Holding Time,start - date,"//*[@id=""txtSDate""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$txtSDate"" type=""text"" id=""txtSDate"" disabled=""disabled"" class=""aspNetDisabled hasDatepicker"" style=""width: 6em; font-weight: normal; background: lightyellow;"" readonly="""">"
+Bacterial,Sample Holding Time,start - hour,"//*[@id=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$TimeSelector2_txtHour""]","<input id=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$TimeSelector2_txtHour"" name=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$TimeSelector2"" readonly=""readonly"" onclick=""this.blur();"" cols=""2"" maxlength=""2"" value=""12"" style=""height:15px;border-bottom:solid 1px Silver;border-left:solid 1px Silver;border-top:solid 1px Silver;background-color:;border-right:none;width:17px;font-size:9pt;"">"
+Bacterial,Sample Holding Time,start - minute,"//*[@id=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$TimeSelector2_txtMinute""]","<input id=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$TimeSelector2_txtMinute"" name=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$TimeSelector2_txtMinute"" readonly=""readonly"" onclick=""this.blur();"" cols=""2"" maxlength=""2"" value=""00"" style=""height:15px;border-bottom:solid 1px Silver;border-left:none;border-top:solid 1px Silver;background-color:;border-right:none;width:17px;font-size:9pt;"">"
+Bacterial,Sample Holding Time,start - am/pm,"//*[@id=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$TimeSelector2_txtAmPm""]","<input id=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$TimeSelector2_txtAmPm"" name=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$TimeSelector2_txtAmPm"" readonly=""readonly"" onclick=""this.blur();"" cols=""2"" maxlength=""2"" value=""AM"" style=""height:15px;border-bottom:solid 1px Silver;border-left:none;border-right:solid 1px Silver;border-top:solid 1px Silver;background-color:;width:22px;font-size:9pt;"">"
+Bacterial,Sample Holding Time,end - date,"//*[@id=""txtEDate""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$txtEDate"" type=""text"" id=""txtEDate"" disabled=""disabled"" class=""aspNetDisabled hasDatepicker"" style=""width: 6em; font-weight: normal; background: lightyellow;"" readonly="""">"
+Bacterial,Sample Holding Time,end - hour,"//*[@id=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$TimeSelector3_txtHour""]","<input id=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$TimeSelector3_txtHour"" name=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$TimeSelector3"" readonly=""readonly"" onclick=""this.blur();"" cols=""2"" maxlength=""2"" value=""12"" style=""height:15px;border-bottom:solid 1px Silver;border-left:solid 1px Silver;border-top:solid 1px Silver;background-color:;border-right:none;width:17px;font-size:9pt;"">"
+Bacterial,Sample Holding Time,end - minute,"//*[@id=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$TimeSelector3_txtMinute""]","<input id=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$TimeSelector3_txtMinute"" name=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$TimeSelector3_txtMinute"" readonly=""readonly"" onclick=""this.blur();"" cols=""2"" maxlength=""2"" value=""00"" style=""height:15px;border-bottom:solid 1px Silver;border-left:none;border-top:solid 1px Silver;background-color:;border-right:none;width:17px;font-size:9pt;"">"
+Bacterial,Sample Holding Time,end - am/pm,"//*[@id=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$TimeSelector3_txtAmPm""]","<input id=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$TimeSelector3_txtAmPm"" name=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$TimeSelector3_txtAmPm"" readonly=""readonly"" onclick=""this.blur();"" cols=""2"" maxlength=""2"" value=""AM"" style=""height:15px;border-bottom:solid 1px Silver;border-left:none;border-right:solid 1px Silver;border-top:solid 1px Silver;background-color:;width:22px;font-size:9pt;"">"
+Bacterial,Sample Holding Time,temperature - min,"//*[@id=""STemp""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$STemp"" type=""text"" id=""STemp"" style=""width: 3em; font-weight: normal; background: lightyellow;"" class=""cMisc"" disabled=""disabled"">"
+Bacterial,Sample Holding Time,temperature - max,"//*[@id=""ETemp""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$ETemp"" type=""text"" id=""ETemp"" style=""width: 3em; font-weight: normal; background: lightyellow;"" class=""cMisc"" disabled=""disabled"">"
+Bacterial,Did you use a method other than 3M Petrifilm Plates?,yes,"//*[@id=""ECO1""]","<input value=""ECO1"" name=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$ECO"" type=""radio"" id=""ECO1"" onclick=""Show('DECO')"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Bacterial,Did you use a method other than 3M Petrifilm Plates?,no,"//*[@id=""ECO2""]","<input value=""ECO2"" name=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$ECO"" type=""radio"" id=""ECO2"" onclick=""Hide('DECO')"" checked=""checked"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Bacterial,,Comments,"//*[@id=""Bacterial""]","<textarea name=""ctl00$ContentPlaceHolder2$Tabs$tblBacterialData$Bacterial"" id=""Bacterial"" class=""cComments"" style=""width: 90%; height: 10em; font-weight: normal; background: lightyellow;""></textarea>"
+Macroinvertibrate,Methods,Stream Type: Rocky Bottom Stream ,"//*[@id=""DStream0""]","<input value=""rocky"" name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$DStream"" type=""radio"" id=""DStream0"" onclick=""$('iStream').value = 'rocky'"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Macroinvertibrate,Methods,Stream Type: Muddy Bottom Stream ,"//*[@id=""DStream1""]","<input value=""muddy"" name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$DStream"" type=""radio"" id=""DStream1"" onclick=""$('iStream').value = 'muddy'; $('DMethod1').click()"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Macroinvertibrate,Methods,Method Used: Kick seine,"//*[@id=""DMethod0""]","<input value=""kick"" name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$DMeth"" type=""radio"" id=""DMethod0"" onclick=""$('iMethod').value = 'kick'; $('DStream0').click()"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Macroinvertibrate,Methods,Method Used: D-Frame net,"//*[@id=""DMethod1""]","<input value=""d-frame"" name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$DMeth"" type=""radio"" id=""DMethod1"" onclick=""$('iMethod').value = 'd-frame'"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Macroinvertibrate,Methods,Method Used: Total Area Sampled,"//*[@id=""AreaSampled""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$AreaSampled"" type=""text"" id=""AreaSampled"" class=""cMisc"" style=""width: 3em; font-weight: normal; background: lightyellow;"" disabled=""disabled"">"
+Macroinvertibrate,Methods,Habitats Sampled: Leaf Packs/Woody Debris,"//*[@id=""DHabitats0""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$DHabitats0"" type=""checkbox"" id=""DHabitats0"" value=""leaf pack"" class=""cHabitat"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Macroinvertibrate,Methods,Habitats Sampled: Vegetated Bank Margin,"//*[@id=""DHabitats1""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$DHabitats1"" type=""checkbox"" id=""DHabitats1"" value=""vegetated"" class=""cHabitat"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Macroinvertibrate,Methods,Habitats Sampled: Riffle,"//*[@id=""DHabitats2""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$DHabitats2"" type=""checkbox"" id=""DHabitats2"" value=""riffle"" class=""cHabitat"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Macroinvertibrate,Methods,Habitats Sampled: Streambed with silty area (v. fine particles),"//*[@id=""DHabitats4""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$DHabitats4"" type=""checkbox"" id=""DHabitats4"" value=""silt"" class=""cHabitat"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Macroinvertibrate,Methods,Habitats Sampled: Streambed with Sand or small gravel,"//*[@id=""DHabitats5""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$DHabitats5"" type=""checkbox"" id=""DHabitats5"" value=""sand"" class=""cHabitat"" style=""display: inline; font-weight: normal;"" disabled=""disabled"">"
+Macroinvertibrate,Taxa Groups - Sensitive,Stonefly Nymphs,"//*[@id=""iNstoneflynymphs""]","<select name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$iNstoneflynymphs"" id=""iNstoneflynymphs"" style=""background: lightyellow;"" disabled=""disabled"">
+				<option value=""""></option>
+				<option value=""R"">R</option>
+				<option value=""C"">C</option>
+				<option value=""D"">D</option>
+			</select>"
+Macroinvertibrate,Taxa Groups - Sensitive,Mayfly Nymphs,"//*[@id=""iNmayflynymphs""]","<select name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$iNmayflynymphs"" id=""iNmayflynymphs"" style=""background: lightyellow;"" disabled=""disabled"">
+				<option value=""""></option>
+				<option value=""R"">R</option>
+				<option value=""C"">C</option>
+				<option value=""D"">D</option>
+			</select>"
+Macroinvertibrate,Taxa Groups - Sensitive,Water Penny Larvae,"//*[@id=""iNwaterpennylarvae""]","<select name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$iNwaterpennylarvae"" id=""iNwaterpennylarvae"" style=""background: lightyellow;"" disabled=""disabled"">
+				<option value=""""></option>
+				<option value=""R"">R</option>
+				<option value=""C"">C</option>
+				<option value=""D"">D</option>
+			</select>"
+Macroinvertibrate,Taxa Groups - Sensitive,Riffle Beetle Larvae/Adults,"//*[@id=""iNrifflebeetle""]","<select name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$iNrifflebeetle"" id=""iNrifflebeetle"" style=""background: lightyellow;"" disabled=""disabled"">
+				<option value=""""></option>
+				<option value=""R"">R</option>
+				<option value=""C"">C</option>
+				<option value=""D"">D</option>
+			</select>"
+Macroinvertibrate,Taxa Groups - Sensitive,Aquatic Snipe Flies,"//*[@id=""iNaquaticsnipeflies""]","<select name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$iNaquaticsnipeflies"" id=""iNaquaticsnipeflies"" style=""background: lightyellow;"" disabled=""disabled"">
+				<option value=""""></option>
+				<option value=""R"">R</option>
+				<option value=""C"">C</option>
+				<option value=""D"">D</option>
+			</select>"
+Macroinvertibrate,Taxa Groups - Sensitive,Caddisflies,"//*[@id=""iNcaddisflies""]","<select name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$iNcaddisflies"" id=""iNcaddisflies"" style=""background: lightyellow;"" disabled=""disabled"">
+				<option value=""""></option>
+				<option value=""R"">R</option>
+				<option value=""C"">C</option>
+				<option value=""D"">D</option>
+			</select>"
+Macroinvertibrate,Taxa Groups - Sensitive,Gilled Snails,"//*[@id=""iNgilledsnails""]","<select name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$iNgilledsnails"" id=""iNgilledsnails"" style=""background: lightyellow;"" disabled=""disabled"">
+				<option value=""""></option>
+				<option value=""R"">R</option>
+				<option value=""C"">C</option>
+				<option value=""D"">D</option>
+			</select>"
+Macroinvertibrate,Taxa Groups - Sensitive,# of taxa,"//*[@id=""T3""]/u[1]",<u>&nbsp;0&nbsp;</u>
+Macroinvertibrate,Taxa Groups - Sensitive,# of taxa times 3,"//*[@id=""T3""]/u[2]",<u>&nbsp;0&nbsp;</u>
+Macroinvertibrate,Taxa Groups - Somewhat Sensitive,Common Net Spinning Caddisflies,"//*[@id=""iNcommonnetspinningcaddisflies""]","<select name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$iNcommonnetspinningcaddisflies"" id=""iNcommonnetspinningcaddisflies"" style=""background: lightyellow;"" disabled=""disabled"">
+				<option value=""""></option>
+				<option value=""R"">R</option>
+				<option value=""C"">C</option>
+				<option value=""D"">D</option>
+			</select>"
+Macroinvertibrate,Taxa Groups - Somewhat Sensitive,Dobsonfly/Hellgrammites & Fishfly,"//*[@id=""iNdobsonflyhellgrammitesandfishfly""]","<select name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$iNdobsonflyhellgrammitesandfishfly"" id=""iNdobsonflyhellgrammitesandfishfly"" style=""background: lightyellow;"" disabled=""disabled"">
+				<option value=""""></option>
+				<option value=""R"">R</option>
+				<option value=""C"">C</option>
+				<option value=""D"">D</option>
+			</select>"
+Macroinvertibrate,Taxa Groups - Somewhat Sensitive,Dragonfly & Damselfly Nymphs,"//*[@id=""iNdragonflyanddamselflynymphs""]","<select name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$iNdragonflyanddamselflynymphs"" id=""iNdragonflyanddamselflynymphs"" style=""background: lightyellow;"" disabled=""disabled"">
+				<option value=""""></option>
+				<option value=""R"">R</option>
+				<option value=""C"">C</option>
+				<option value=""D"">D</option>
+			</select>"
+Macroinvertibrate,Taxa Groups - Somewhat Sensitive,Crayfish,"//*[@id=""iNcrayfish""]","<select name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$iNcrayfish"" id=""iNcrayfish"" style=""background: lightyellow;"" disabled=""disabled"">
+				<option value=""""></option>
+				<option value=""R"">R</option>
+				<option value=""C"">C</option>
+				<option value=""D"">D</option>
+			</select>"
+Macroinvertibrate,Taxa Groups - Somewhat Sensitive,Crane Flies,"//*[@id=""iNcraneflieslarvae""]","<select name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$iNcraneflieslarvae"" id=""iNcraneflieslarvae"" style=""background: lightyellow;"" disabled=""disabled"">
+				<option value=""""></option>
+				<option value=""R"">R</option>
+				<option value=""C"">C</option>
+				<option value=""D"">D</option>
+			</select>"
+Macroinvertibrate,Taxa Groups - Somewhat Sensitive,Aquatic Sow Bugs,"//*[@id=""iNaquaticsowbugs""]","<select name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$iNaquaticsowbugs"" id=""iNaquaticsowbugs"" style=""background: lightyellow;"" disabled=""disabled"">
+				<option value=""""></option>
+				<option value=""R"">R</option>
+				<option value=""C"">C</option>
+				<option value=""D"">D</option>
+			</select>"
+Macroinvertibrate,Taxa Groups - Somewhat Sensitive,Scud,"//*[@id=""iNscud""]","<select name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$iNscud"" id=""iNscud"" style=""background: lightyellow;"" disabled=""disabled"">
+				<option value=""""></option>
+				<option value=""R"">R</option>
+				<option value=""C"">C</option>
+				<option value=""D"">D</option>
+			</select>"
+Macroinvertibrate,Taxa Groups - Somewhat Sensitive,Clams & Mussels,"//*[@id=""iNclamsandmussels""]","<select name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$iNclamsandmussels"" id=""iNclamsandmussels"" style=""background: lightyellow;"" disabled=""disabled"">
+				<option value=""""></option>
+				<option value=""R"">R</option>
+				<option value=""C"">C</option>
+				<option value=""D"">D</option>
+			</select>"
+Macroinvertibrate,Taxa Groups - Somewhat Sensitive,# of taxa,"//*[@id=""T2""]/u[1]",<u>&nbsp;0&nbsp;</u>
+Macroinvertibrate,Taxa Groups - Somewhat Sensitive,# of taxa times 2,"//*[@id=""T2""]/u[2]",<u>&nbsp;0&nbsp;</u>
+Macroinvertibrate,Taxa Groups - Tolerant,Midge Fly Larvae,"//*[@id=""iNmidgeflylarvae""]","<select name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$iNmidgeflylarvae"" id=""iNmidgeflylarvae"" style=""background: lightyellow;"" disabled=""disabled"">
+				<option value=""""></option>
+				<option value=""R"">R</option>
+				<option value=""C"">C</option>
+				<option value=""D"">D</option>
+			</select>"
+Macroinvertibrate,Taxa Groups - Tolerant,Black Fly Larvae,"//*[@id=""iNblackflylarvae""]","<select name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$iNblackflylarvae"" id=""iNblackflylarvae"" style=""background: lightyellow;"" disabled=""disabled"">
+				<option value=""""></option>
+				<option value=""R"">R</option>
+				<option value=""C"">C</option>
+				<option value=""D"">D</option>
+			</select>"
+Macroinvertibrate,Taxa Groups - Tolerant,Lunged Snails,"//*[@id=""iNlungedsnails""]","<select name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$iNlungedsnails"" id=""iNlungedsnails"" style=""background: lightyellow;"" disabled=""disabled"">
+				<option value=""""></option>
+				<option value=""R"">R</option>
+				<option value=""C"">C</option>
+				<option value=""D"">D</option>
+			</select>"
+Macroinvertibrate,Taxa Groups - Tolerant,Aquatic Worms,"//*[@id=""iNaquaticworms""]","<select name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$iNaquaticworms"" id=""iNaquaticworms"" style=""background: lightyellow;"" disabled=""disabled"">
+				<option value=""""></option>
+				<option value=""R"">R</option>
+				<option value=""C"">C</option>
+				<option value=""D"">D</option>
+			</select>"
+Macroinvertibrate,Taxa Groups - Tolerant,Leeches,"//*[@id=""iNleech""]","<select name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$iNleech"" id=""iNleech"" style=""background: lightyellow;"" disabled=""disabled"">
+				<option value=""""></option>
+				<option value=""R"">R</option>
+				<option value=""C"">C</option>
+				<option value=""D"">D</option>
+			</select>"
+Macroinvertibrate,Taxa Groups - Tolerant,# of taxa,"//*[@id=""T1""]/u[1]",<u>&nbsp;0&nbsp;</u>
+Macroinvertibrate,Water Quality Index,Score,"//*[@id=""WQI""]","<span id=""WQI"">0</span>"
+Macroinvertibrate,Water Quality Rating,Excellent (>22),"//*[@id=""DMacro""]/table/tbody/tr[11]/td/table[2]/tbody/tr[2]/th[1]/input","<input type=""radio"" name=""Rating"" onclick=""return false;"" style=""display: inline; font-weight: normal;"" disabled="""">"
+Macroinvertibrate,Water Quality Rating,Good (17-22),"//*[@id=""DMacro""]/table/tbody/tr[11]/td/table[2]/tbody/tr[2]/th[2]/input","<input type=""radio"" name=""Rating"" onclick=""return false;"" style=""display: inline; font-weight: normal;"" disabled="""">"
+Macroinvertibrate,Water Quality Rating,Fair (11-16),"//*[@id=""DMacro""]/table/tbody/tr[11]/td/table[2]/tbody/tr[2]/th[3]/input","<input type=""radio"" name=""Rating"" onclick=""return false;"" style=""display: inline; font-weight: normal;"" disabled="""">"
+Macroinvertibrate,Water Quality Rating,Poor (<11),"//*[@id=""DMacro""]/table/tbody/tr[11]/td/table[2]/tbody/tr[2]/th[4]/input","<input type=""radio"" name=""Rating"" onclick=""return false;"" style=""display: inline; font-weight: normal;"" disabled="""">"
+Macroinvertibrate,Other Samples,Fishes,"//*[@id=""otherFish""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$otherFish"" type=""text"" id=""otherFish"" class=""cMisc"" style=""width: 3em; font-weight: normal; background: lightyellow;"" disabled=""disabled"">"
+Macroinvertibrate,Other Samples,Asian Clams,"//*[@id=""otherClam""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$otherClam"" type=""text"" id=""otherClam"" class=""cMisc"" style=""width: 3em; font-weight: normal; background: lightyellow;"" disabled=""disabled"">"
+Macroinvertibrate,Other Samples,Salamanders,"//*[@id=""otherSalamander""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$otherSalamander"" type=""text"" id=""otherSalamander"" class=""cMisc"" style=""width: 3em; font-weight: normal; background: lightyellow;"" disabled=""disabled"">"
+Macroinvertibrate,Other Samples,Tadpoles,"//*[@id=""otherTadpole""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$otherTadpole"" type=""text"" id=""otherTadpole"" class=""cMisc"" style=""width: 3em; font-weight: normal; background: lightyellow;"" disabled=""disabled"">"
+Macroinvertibrate,Other Samples,Nonnative Crayfish,"//*[@id=""otherCrayfish""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$otherCrayfish"" type=""text"" id=""otherCrayfish"" class=""cMisc"" style=""width: 3em; font-weight: normal; background: lightyellow;"" disabled=""disabled"">"
+Macroinvertibrate,Other Samples,Which species?,"//*[@id=""CrayfishSpecies""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$CrayfishSpecies"" type=""text"" id=""CrayfishSpecies"" class=""cMisc"" style=""font-weight: normal; background: lightyellow;"" disabled=""disabled"">"
+Macroinvertibrate,Comments,,"//*[@id=""Macro""]","<textarea name=""ctl00$ContentPlaceHolder2$Tabs$tabMacroinertebrateData$Macro"" id=""Macro"" class=""cComments"" style=""width: 90%; height: 10em; font-weight: normal; background: lightyellow;""></textarea>"
+Stream Habitat Survey,Use,Rocky bottom form,"//*[@id=""ft1""]","<input value=""Rocky"" name=""ctl00$ContentPlaceHolder2$Tabs$tblStreamHabitatSurver$formtype"" type=""radio"" id=""ft1"" class=""cSHType"" onclick=""rockyBottom()"" style=""display: inline; font-weight: normal; background: none;"" disabled=""disabled"">"
+Stream Habitat Survey,,Muddy bottom form,"//*[@id=""ft2""]","<input value=""Muddy"" name=""ctl00$ContentPlaceHolder2$Tabs$tblStreamHabitatSurver$formtype"" type=""radio"" id=""ft2"" class=""cSHType"" onclick=""muddyBottom()"" style=""display: inline; font-weight: normal; background: none;"" disabled=""disabled"">"
