@@ -1,12 +1,6 @@
 from collections import OrderedDict
 
 def transform(data):
-    #TODO: transform data
+    #TODO: transform data - formatting
 
-    headers = []
-    data_array = []
-    for key, value in data.items():
-        headers.append(key)
-        data_array.append(value)
-
-    return data_array, headers
+    return data.values(), data.keys()

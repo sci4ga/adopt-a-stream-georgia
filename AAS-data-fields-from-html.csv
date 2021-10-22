@@ -1,4 +1,4 @@
-﻿Tab,Section,Field Name,XPath,Element (Event=77709)
+Tab,Section,Field Name,XPath,Element (Event=77709)
 Site,Site Information,Site,"//*[@id=""txtSite""]","<input name=""ctl00$ContentPlaceHolder2$Tabs$tabSite$txtSite"" type=""text"" value=""[S-48]- Casey Canal"" id=""txtSite"" disabled=""disabled"" class=""aspNetDisabled"" style=""width:350px;"">"
 Site,Site Information,Group,"//*[@id=""lblGroupName""]","<span id=""lblGroupName"">Group: [ G-2756]- Bent Tree StreamKeepers</span>"
 Site,Site Information,County,"//*[@id=""lblCountyName""]","<span id=""lblCountyName"">County: Pickens</span>"
