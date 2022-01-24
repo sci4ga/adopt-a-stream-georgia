@@ -1,0 +1,13 @@
+numpy
+scipy
+pandas
+geopandas
+geopy
+shapely
+shapefile
+plotly
+tqdm
+
+# for scraped dataset only
+bs4 # beautiful soup
+
