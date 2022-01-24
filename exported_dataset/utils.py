@@ -32,7 +32,7 @@ def fetch_geo_locs(geo_locs=None) -> list:
     To recompute, you must pass the geo_locs parameter.
     """
     try:
-        with open("geodata/GIS_loc.json", "r") as f:
+        with open("../geodata/GIS_loc.json", "r") as f:
             return json.load(f)
     except:
         results = []
@@ -45,7 +45,7 @@ def fetch_geo_locs(geo_locs=None) -> list:
             results.append(json.loads(urlopen(req).read().decode('utf-8')))
             time.sleep(wait)
         # store the results for reuse
-        with open("geodata/GIS_loc.json", "w") as f:
+        with open("../geodata/GIS_loc.json", "w") as f:
             json.dump(results, f)
         return results
     
