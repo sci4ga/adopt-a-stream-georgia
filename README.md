@@ -18,8 +18,8 @@ The current project goals are the basic validation and preparation of the availa
 
 # Other resources used
 
-[This API](https://geo.fcc.gov/api/census/block/find?latitude={}&longitude={}&format=json) provides an on-demand lookup for local information based on FIPS identifiers. `utils.py` provides code to use this, but this data is already pulled for all the recorded data points and cached in the repo.
+[This API](https://geo.fcc.gov/api/census/) provides an on-demand lookup for local information based on FIPS identifiers. `utils.py` provides code to use this, but this data is already pulled for all the recorded data points and cached in the repo.
 
-Plotly's own record of [basic US demographics](https://raw.githubusercontent.com/plotly/datasets/master/minoritymajority.csv') that we use at the state level for GIS county information from `utils.get_state_map`, but it could be useful for scientific exploration at a later date.
+Plotly's own record of [basic US demographics](https://raw.githubusercontent.com/plotly/datasets/master/minoritymajority.csv) that we use at the state level for GIS county information from `utils.get_state_map`, but it could be useful for scientific exploration at a later date.
 
 The watershed boundary data was downloaded directly from the [USDA data gateway](https://datagateway.nrcs.usda.gov/). In this case, the "Geographic NAD83 projection" was chosen (arbitrarily) and the output format was ESRI Shapefile.
