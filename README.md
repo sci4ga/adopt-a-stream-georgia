@@ -10,6 +10,10 @@ We currently have two datasets from AaS-GA. One is a direct database export sent
 
 The raw and processed data are stored in this repository using git's [Large File Storage](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github). They are stored as zip files and should be uncompressed in your working environment before you run any of the existing scripts.
 
+# Steps to get started with this repo
+
+This repo contains some large data files that are managed using Git's [Large File System (LFS)](https://docs.github.com/en/repositories/working-with-files/managing-large-files). Follow the instructions in the link to install the LFS CLI tool before you clone. 
+
 # Project maturity
 
 As of Jan 2022, we are in the earliest stages of gathering and preparing a dataset for further research.
