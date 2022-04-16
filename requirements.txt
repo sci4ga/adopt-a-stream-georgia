@@ -4,7 +4,7 @@ pandas
 geopandas
 geopy
 shapely
-shapefile
+pyshp
 plotly
 tqdm
 
