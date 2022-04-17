@@ -8,11 +8,27 @@ The water quality dataset hosted by AaS-GA was created through the volunteer eff
 
 We currently have two datasets from AaS-GA. One is a direct database export sent by them in December, 2021 in XLS format. The other is scraped from their web portal in September, 2021, and contains significant differences from the direct export that are not yet well understood. The two raw datasets are recorded here.
 
-The raw and processed data are stored in this repository using git's [Large File Storage](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github). They are stored as zip files and should be uncompressed in your working environment before you run any of the existing scripts.
+The raw and processed data are stored in this repository using git's [Large File Storage](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github). They are stored as zip files and should be uncompressed in your working environment before you run any of the existing scripts. If the repo is over its (small) monthly bandwidth limit, you can download the individual zip files from this [GDrive](https://drive.google.com/drive/folders/1czjUCDzNSZo3kzIlp4ET4kRqLhmnNm2j) shared folder.
 
 # Steps to get started with this repo
 
-This repo contains some large data files that are managed using Git's [Large File System (LFS)](https://docs.github.com/en/repositories/working-with-files/managing-large-files). Follow the instructions in the link to install the LFS CLI tool before you clone. 
+## Data files
+This repo contains some large data files that are managed using Git's [Large File System (LFS)](https://docs.github.com/en/repositories/working-with-files/managing-large-files). Follow the instructions in the link to install the LFS CLI tool before you clone.
+
+## Library dependencies
+
+Make sure to run `pip install -r requirements.txt` in the repo's main directory to ensure you have the python library dependencies.
+
+### Geodata-specific dependencies
+
+Mapping geodata with plotly will also require `npm` and `node` installed in your OS, which support the `jupyterlab-plotly` extension. For instance, on OS X you might use `homebrew` to install the node dependencies:
+
+```
+brew install npm node
+jupyter labextension install jupyterlab-plotly
+```
+
+and there are other ways to do that for other operating systems.
 
 # Project maturity
 
