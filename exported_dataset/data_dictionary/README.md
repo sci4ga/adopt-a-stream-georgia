@@ -2,7 +2,7 @@
 
 The current work is recorded in three parts, both as computational notebooks. The first is made using R, the second in Python using Jupyter. These links are viewable within github:
 
- * [1](data_dictionary_version_4_5.ipynb)
+ * [Part 1](data_dictionary_version_4_5.ipynb)
    * This covers the following data fields:
      - group_rid
      - GroupName
@@ -19,7 +19,7 @@ The current work is recorded in three parts, both as computational notebooks. Th
      - createddate
      - data_entry
      - participants
- * [2](Data.Dictionary.EDSC.04.03.md)
+ * [Part 2](Data.Dictionary.EDSC.04.03.md)
    * This covers the following data fields:
      - do_saturation
      - reagent
@@ -43,7 +43,7 @@ The current work is recorded in three parts, both as computational notebooks. Th
      - Turbidity
      - Chloride
      - Hardness
- * [3](Data_ExplorationF.ipynb)
+ * [Part 3](Data_ExplorationF.ipynb)
    * This covers the following data fields:
      - bact_detail_rid
      - plate_blank
