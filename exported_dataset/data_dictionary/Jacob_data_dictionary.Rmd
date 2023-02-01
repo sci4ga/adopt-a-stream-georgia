@@ -1,0 +1,131 @@
+---
+title: "Data Dictionary"
+output: html_document
+date: "2022-11-29"
+---
+
+import dataset: 
+```{r}
+stage2<-read.csv("export_dataframe_stage2.csv")
+```
+
+### rain_24_hours
+rain over 24 hour period
+
+- 4 distinct status: `Intermittent Rain`, `Heavy Rain`, `Steady Rain`, `None`
+- All strings, 0 non-character inputs
+- 42222 empty values 
+
+```{r, results = "hide"}
+# display unique values
+unique(stage2$rain_24_hours)
+
+sum(!is.character(stage2$rain_24_hours))
+
+# counting for the number of null/error values
+count_empty = 0
+
+for (i in 1:length(stage2$rain_24_hours)){
+  if (stage2$rain_24_hours[i] == ""){
+    count_empty = count_empty +1
+  }
+}
+  
+paste0("rain_24_hours has ", count_empty, " empty values") 
+```
+
+### weather
+description of weather
+
+- 5 distinct classifications "Clear, Steady, Overcast, Heavy, Intermittent"
+- there appears to be input error since each classification has twin with semicolon
+- 23595 empty values
+
+
+```{r, results = "hide"}
+# display unique values
+unique(stage2$weather)
+
+# counting null/error values
+count_empty = 0
+
+for (i in 1:length(stage2$weather)){
+  if (stage2$weather[i] == ""){
+    count_empty = count_empty +1
+  }
+}
+
+paste0("weather has ", count_empty, " empty values") 
+```
+
+### rain_hours
+
+- Numeric values indicating total amount of hours of rain
+- 26305 NAs
+- 221 sites with 0 rain seems to be input error
+- histogram shows highly skewed data, many potential outliers 
+- summary supports skewedness and potential outliers...
+- median of 24 and mean od 47.95 very notable
+- mean is also greater than 3rd quartile... outliers!!
+- 2871 places with over 100 hours of rain
+
+```{r, results = "hide"}
+length(!is.numeric(stage2$rain_hours)) # row name should be only non-numeric
+subset(stage2, !is.numeric(rain_hours)) # no non-numerics confirmed
+
+count_NA <-  sum(is.na(stage2$rain_hours))
+
+paste0("rain_hours has ", count_NA, " NAs")
+
+hist(stage2$rain_hours, breaks = 10) # data very skewed
+
+summary(stage2$rain_hours) 
+
+nrow(subset(stage2, rain_hours == 0)) # apparently 221 sites with 0 rain
+nrow(subset(stage2, rain_hours > 100)) # 2871 places with over 100 hours of rain
+```
+
+## rain_inches
+
+- Numeric with amount of rain in inches (site average?)
+- Lots of errors here... 
+- 22929 NAs
+- 23333 entries with 0 inches rain (no empty values, though)
+- entry with input 3031 is error
+
+```{r}
+class(stage2$rain_inches)
+length(!is.numeric(stage2$rain_inches))# no non-numeric values beside col name
+
+summary(stage2$rain_inches)
+
+nrow(subset(stage2, rain_inches == 0)) 
+sum(is.na(stage2$rain_inches)) # 22929 NAs
+
+paste("There are", nrow(subset(stage2, rain_inches == ""))," empty values")
+paste0("There are ", sum(is.na(stage2$rain_inches)), " NAs")
+paste("There are", nrow(subset(stage2, rain_inches == 0)) ," values recorded as 0.  This must be input error.")
+```
+
+## distance
+
+- distance to/of ??
+- 53956 NAs
+- skewed, but does not look as outlier-filled as others have
+- 55 values over 100 and 0 values equalling 0 are notable
+
+```{r}
+class(stage2$distance)
+length(!is.numeric(stage2$distance))# no non-numeric values beside col name
+
+summary(stage2$distance)
+hist(stage2$distance)
+
+nrow(subset(stage2, distance == 0)) 
+sum(is.na(stage2$distance)) 
+
+paste("There are", nrow(subset(stage2, distance == ""))," empty values")
+paste0("There are ", sum(is.na(stage2$distance)), " NAs")
+paste("There are", nrow(subset(stage2, distance == 0)) ," values recorded as 0")
+paste("There are", nrow(subset(stage2, distance > 100)) ," values recorded over 100")
+```

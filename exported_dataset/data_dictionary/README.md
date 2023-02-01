@@ -75,24 +75,37 @@ The current work is recorded in three parts, both as computational notebooks. Th
      - Other6_Comm
      - Other7_Comm
 
-## Future work
-The following fields remain un-analyzed:
-     - rain_24_hours
-     - weather
-     - rain_hours
-     - rain_inches
-     - distance
-     - air_temperature
-     - stream
-     - method
-     - wqi
-     - habitat
-     - chem_detail_rid
+* [Part 4](tony&Nancy_data_dict.Rmd)
+
      - air_temp
+     - air_temperature
      - water_temp
      - min_temp
      - max_temp
+
+* [Part 5](Jacob_data_dictionary.Rmd)
+
+      - rain_24_hours
+      - weather
+      - rain_hours
+      - rain_inches
+      - distance
+      - stream
+      - method
+      - wqi
+      - habitat
+      - chem_detail_rid
+
+* [Part 6](Hasong_data_dictionary.ipynb)
+
      - calibrate
      - calibrate_comment
      - chemical_comment
      - ChemWarnings
+
+
+## Future work
+
+Some of the fields require further clarification, especially some where notes indicate we don't know what exactly they are measuring!
+
+The data should also be re-assessed for the better-quality data export that we now have access to.
