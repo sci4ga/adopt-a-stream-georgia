@@ -1,0 +1,247 @@
+---
+title: "Data Dictionary - Emory QTM Fall 2022"
+output: html_document
+author: Tony Chen Gu, Nancy Chen
+date: '2022-11-14'
+---
+## Tony - 2022 Fall
+```{r}
+data = read.csv("export_dataframe_stage2.csv")
+```
+
+### air_tmep
+- record the temperature in Celsius
+- 60 percent of data is not NA and 0.5% of them shows a temperature over 40 degrees Celsius (104 F)
+```{r}
+summary(data$air_temp)
+num_obs = length(data$air_temp)
+num_NA = sum(is.na(data$air_temp))
+paste("number of NA is ",num_NA)
+
+paste("numer of valid data is ",num_obs - num_NA)
+paste("percent of NA is",num_NA/ num_obs)
+paste("percent of valid data is",(num_obs - num_NA) / num_obs)
+```
+Min to 3rd Quantile looks good, the Max value looks weird.
+```{r}
+over40 = sum(data$air_temp > 40, na.rm = TRUE)
+paste("There are", over40, "of recording shows a temperature over 40 degrees Celcius (104 F). It's", over40/(num_obs - num_NA), "% of valid data.")
+```
+### air_tmeperature
+- record the temperature in Celsius
+- shows more NA than air_temp (60% of data is NA)
+- 0.3% of valid data is higher than 40 degrees Celsius (104 F)
+```{r}
+summary(data$air_temperature)
+num_obs = length(data$air_temperature)
+num_NA = sum(is.na(data$air_temperature))
+paste("number of NA is ",num_NA)
+
+paste("numer of valid data is ",num_obs - num_NA)
+paste("percent of NA is",num_NA/ num_obs)
+paste("percent of valid data is",(num_obs - num_NA) / num_obs)
+```
+Min to 3rd Quantile looks good, the Max value looks weird.
+```{r}
+over40 = sum(data$air_temperature > 40, na.rm = TRUE)
+paste("There are", over40, "of recording shows a temperature over 40 degrees Celcius (104 F). It's", over40/(num_obs - num_NA), "% of valid data.")
+```
+
+### min_temp
+- too much NAs (80%) makes it almost unusable
+- only 3% of the valid data is higher than 35 degree Celcius (95 F)
+```{r}
+summary(data$min_temp)
+num_obs = length(data$min_temp)
+num_NA = sum(is.na(data$min_temp))
+paste("number of NA is ",num_NA)
+
+paste("numer of valid data is ",num_obs - num_NA)
+paste("percent of NA is",num_NA/ num_obs)
+paste("percent of valid data is",(num_obs - num_NA) / num_obs)
+```
+min_temp of 95 is defiantly abnormal
+```{r}
+over35 = sum(data$air_temperature > 35, na.rm = TRUE)
+paste("There are", over35, "of recording shows a temperature over 35 degree Celcius (95 F). It's", over35/(num_obs - num_NA), "% of valid data.")
+```
+
+### max temp
+- unsure if it's about air or water temperature
+- only about 10% of valid data
+- has 0.3% of data over 40 degree
+```{r}
+summary(data$max_temp)
+num_obs = length(data$max_temp)
+num_NA = sum(is.na(data$max_temp))
+paste("number of NA is ",num_NA)
+
+paste("numer of valid data is ",num_obs - num_NA)
+paste("percent of NA is",num_NA/ num_obs)
+paste("percent of valid data is",(num_obs - num_NA) / num_obs)
+```
+Max_temp over 355 is weird.
+```{r}
+over40 = sum(data$air_temperature > 40, na.rm = TRUE)
+paste("There are", over40, "of recording shows a temperature over 40 degrees Celcius (104 F). It's", over40/(num_obs - num_NA), "% of valid data.")
+```
+
+### water_temp
+- record the water temperature in Celsius
+- about 40% of the data are NA
+- has abnormal data like 110 degree, only 0.3% of data is over 40 degree
+```{r}
+summary(data$water_temp)
+num_obs = length(data$water_temp)
+num_NA = sum(is.na(data$water_temp))
+paste("number of NA is ",num_NA)
+
+paste("numer of valid data is ",num_obs - num_NA)
+paste("percent of NA is",num_NA/ num_obs)
+paste("percent of valid data is",(num_obs - num_NA) / num_obs)
+```
+water temperature over 100 degree is too high. Look more into its data.
+```{r}
+over40 = sum(data$water_temp > 40, na.rm = TRUE)
+paste("There are", over40, "of recording shows a water temperature over 40 degrees Celcius (104 F). It's", over40/(num_obs - num_NA), "% of valid data.")
+hist(data$water_temp)
+```
+  
+## Nancy - 2022 Fall
+import dataset: 
+```{r}
+stage2<-read.csv("export_dataframe_stage2.csv")
+```
+
+### stream 
+status of the stream 
+
+- 3 distinct status: `rocky`, `muddy`, `muddy;rocky`
+- All strings 
+- 197 empty values, 5 numeric values (most likely to be input errors)
+
+```{r}
+# display unique values
+unique(stage2$stream)
+
+# counting for the number of null/error values
+count_empty = 0
+count_error = 0
+for (i in 1:length(stage2$stream)){
+  if (stage2$stream[i] == ""){
+    count_empty = count_empty +1
+  }
+  if (stage2$stream[i] == "27" |stage2$stream[i] == "26.67" | stage2$stream[i] == "23" |stage2$stream[i] == "8.8" | stage2$stream[i] == "10.5" ){
+    count_error = count_error + 1
+  }
+}
+  
+paste0("count_empty: ", count_empty) 
+paste0("count_error: ", count_error) 
+```
+
+### method 
+method used to measure the values
+
+* 2 distinct method: `kick`, `d-frame`
+  + **kick**: Measuring the abundance of macroinvertebrates (small aquatic animals) in the river by kicking up gravels. Unpolluted river will have a higher diversity  
+  + **d-frame**: sweeping or jabbing nets into appropriate habitats to collect organisms from the sediment and water column
+* All strings 
+* 59325 empty values, 4 numeric values (most likely to be input errors)
+
+```{r}
+# display unique values
+unique(stage2$method)
+
+# counting null/error values
+count_empty = 0
+count_error = 0
+for (i in 1:length(stage2$method)){
+  if (stage2$method[i] == ""){
+    count_empty = count_empty +1
+  }
+  if (stage2$method[i] == "22.2" |stage2$method[i] == "21.11" | stage2$method[i] == "22.6" |stage2$method[i] == "12.7"){
+    count_error = count_error + 1
+  }
+}
+
+#printing
+paste0("count_empty: ", count_empty) 
+paste0("count_error: ", count_error) 
+```
+
+### wqi
+**Water quality limited segment**: any stream segment where the water quality does not or will not meet applicable water quality standards
+
+- 34 distinct values 
+- 59084 NA values 
+- All integers 
+
+```{r}
+# display unique values
+unique(stage2$wqi)
+
+# counting null values
+count_NA = 0
+for (i in 1:length(stage2$wqi)){
+  if (is.na(stage2$wqi[i])){
+    count_NA = count_NA +1
+  }
+}
+
+# printing
+paste0("count_NA: ", count_NA) 
+```
+
+### habitat
+natural environment around the stream
+
+- 48 distinct habitats
+- All strings 
+- 59144 empty values
+
+```{r}
+# display a few unique values
+head(unique(stage2$habitat))
+
+# count the number of distinct values 
+length(unique(stage2$habitat))
+
+# count empty values 
+count_empty = 0
+for (i in 1:length(stage2$habitat)){
+  if (stage2$habitat[i] == ""){
+    count_empty = count_empty +1
+  }
+}
+
+# printing
+paste0("count_empty: ", count_empty) 
+```
+
+
+### chem_detail_rid 
+chemical details of the stream 
+
+- 58728 distinct values 
+- All numeric integers
+- No null values
+
+```{r}
+# display a few distinct values 
+head(unique(stage2$chem_detail_rid))
+
+# number of distinct values
+length(unique(stage2$chem_detail_rid))
+
+# counting number of empty values (check all possible way of null values inputs)
+count_empty = 0
+for (i in 1:length(stage2$chem_detail_rid)){
+  if (stage2$chem_detail_rid[i] == "NULL" | stage2$chem_detail_rid[i] == "" | is.na(stage2$chem_detail_rid[i])){
+    count_empty = count_empty +1
+  }
+}
+
+# printing
+paste0("count_empty: ", count_empty) 
+```
